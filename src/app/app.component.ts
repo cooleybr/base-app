@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MapComponent } from './map/map.component';
+import {SidebarModule} from 'primeng/sidebar';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'base-app';
+
+
+
 }
